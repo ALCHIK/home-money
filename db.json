@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    }
+  ],
+  "bill": {
+    "value": 89941,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "Обучение2",
+      "capacity": 3434,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.06.2017 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.06.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.06.2017 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "outcome",
+      "amount": 10000,
+      "category": 3,
+      "date": "12.07.2019 18:12:16",
+      "description": "ушло",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 0,
+      "category": 1,
+      "date": "12.07.2019 18:12:24",
+      "description": "ушло чтото",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 43,
+      "category": 1,
+      "date": "12.07.2019 18:12:34",
+      "description": "вав",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 1,
+      "category": 4,
+      "date": "17.07.2019 17:21:25",
+      "description": "ss",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 15,
+      "category": 2,
+      "date": "17.07.2019 18:37:00",
+      "description": "hjn",
+      "id": 10
+    }
+  ],
+  "currency": {
+    "base": "USD",
+    "date": "2019.12.12",
+    "rates": {
+      "USD": 2322,
+      "EUR": 454,
+      "RUS": 22
+    }
+  }
+}
